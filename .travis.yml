@@ -23,7 +23,7 @@ env:
     - npm install -g standard  
 
 scripts : {
-  "test": "npm run test",
+  "test": "npm run lint",
   "lint": "standard"
 
 }
